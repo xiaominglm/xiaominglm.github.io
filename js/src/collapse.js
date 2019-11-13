@@ -1,0 +1,3 @@
+// build time:Wed Nov 13 2019 15:34:27 GMT+0800 (GMT+08:00)
+window.onload=function(){var t=document.title;var e;document.addEventListener("visibilitychange",function(){if(document.hidden){$('[rel="icon"]').attr("href","/images/favicon.ico");$('[rel="shortcut icon"]').attr("href","/images/favicon.ico");document.title="╭(°A°`)╮ 页面崩溃啦 ~";clearTimeout(e)}else{$('[rel="icon"]').attr("href","/images/favicon.ico");$('[rel="shortcut icon"]').attr("href","/images/favicon.ico");document.title="咦，页面又好了！";e=setTimeout(function(){document.title=t},2e3)}})};
+//rebuild by neat 
